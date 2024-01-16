@@ -33,10 +33,10 @@ const List<String> cryptoList = [
 ];
 
 const coinAPIURL = 'https://rest.coinapi.io/v1/exchangerate';
-const apiKey = api;
+const apiKey = API_KEY;
 
 const Map<String, String> headers = {
-  'X-CoinAPI-Key': api,
+  'X-CoinAPI-Key': API_KEY,
 };
 
 class CoinData {
